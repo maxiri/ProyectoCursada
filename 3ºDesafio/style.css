@@ -46,5 +46,7 @@ li::marker{
     color:rgb(119, 85, 72);
 }
 .List-N{
-    list-style-type:decimal
+    list-style-type:decimal;
+
 }
+/* esto es una prueba para ver como funciona git y github*/
