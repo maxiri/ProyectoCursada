@@ -1,0 +1,30 @@
+body {
+    background-image: url('../Imagenes/Fondo.png');
+    background-size: cover; 
+    background-position: center; 
+   
+}
+.Head_container {
+    display: flex;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: rgb(41, 50, 66);
+    color: rgb(253, 163, 18);
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .Head_container img {
+    height: 60px; 
+    margin-right: auto; 
+  }
+  
+  .Head_container h1 {
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
